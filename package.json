@@ -1,0 +1,32 @@
+{
+  "name": "point-inside-triangle",
+  "description": "Check if point is inside a triangle",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jsfi/point-inside-triangle#readme",
+  "author": {
+    "name": "Martin Sachse",
+    "email": "martin.sachse@gmail.com",
+    "url": "http://jsfi.io"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint.js index.js lib/*.js && node node_modules/mocha/bin/mocha test/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsfi/point-inside-triangle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsfi/point-inside-triangle/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3"
+  }
+}
