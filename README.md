@@ -1,6 +1,6 @@
 # point-inside-triangle
 
-> Check if point is inside a triangle
+> Check if a point is inside a triangle
 
 ## Install
 

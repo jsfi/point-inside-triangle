@@ -1,7 +1,7 @@
 {
   "name": "point-inside-triangle",
-  "description": "Check if point is inside a triangle",
-  "version": "1.0.0",
+  "description": "Check if a point is inside a triangle",
+  "version": "1.0.1",
   "homepage": "https://github.com/jsfi/point-inside-triangle#readme",
   "author": {
     "name": "Martin Sachse",
@@ -23,7 +23,14 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "keywords": [],
+  "keywords": [
+      "point",
+      "triangle",
+      "geometry",
+      "inside",
+      "collision",
+      "2d"
+  ],
   "devDependencies": {
     "eslint": "^1.9.0",
     "expect.js": "^0.3.1",
